@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no"/>
+  <meta name="theme-color" content="#e94560"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="Español"/>
+  <meta name="description" content="Révise ton vocabulaire espagnol avec la répétition espacée"/>
+  <title>Español</title>
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="icon" href="icons/icon.svg" type="image/svg+xml"/>
+  <link rel="apple-touch-icon" href="icons/icon.svg"/>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+  <div id="app">
+    <div id="header">
+      <div></div>
+      <h1>Español</h1>
+      <div class="header-right"></div>
+    </div>
+    <div id="content">
+      <div style="display:flex;align-items:center;justify-content:center;height:100%;color:var(--text-muted)">
+        Chargement...
+      </div>
+    </div>
+    <nav id="nav"></nav>
+  </div>
+
+  <script type="module" src="js/app.js"></script>
+  <script>
+    // Enregistrement du Service Worker
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('sw.js').catch(() => {});
+      });
+    }
+  </script>
+</body>
+</html>
