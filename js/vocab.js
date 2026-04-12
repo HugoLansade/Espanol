@@ -161,6 +161,141 @@ const A1 = [
   { id:"a1_129", es:"¿cómo?", fr:"comment ?", exEs:"¿Cómo se dice en español?", exFr:"Comment dit-on en espagnol ?", cat:"preguntas", tags:["question"] },
   { id:"a1_130", es:"¿por qué?", fr:"pourquoi ?", exEs:"¿Por qué estudias español?", exFr:"Pourquoi étudies-tu l'espagnol ?", cat:"preguntas", tags:["question"] },
   { id:"a1_131", es:"¿cuánto?", fr:"combien ?", exEs:"¿Cuánto cuesta esto?", exFr:"Combien ça coûte ?", cat:"preguntas", tags:["question"] },
+
+  // --- Animales ---
+  { id:"a1_132", es:"el perro", fr:"le chien", exEs:"Mi perro se llama Rex.", exFr:"Mon chien s'appelle Rex.", cat:"animales", tags:["animal"] },
+  { id:"a1_133", es:"el gato", fr:"le chat", exEs:"El gato duerme en el sofá.", exFr:"Le chat dort sur le canapé.", cat:"animales", tags:["animal"] },
+  { id:"a1_134", es:"el pájaro", fr:"l'oiseau", exEs:"Los pájaros cantan por la mañana.", exFr:"Les oiseaux chantent le matin.", cat:"animales", tags:["animal"] },
+  { id:"a1_135", es:"el pez", fr:"le poisson (vivant)", exEs:"Hay muchos peces en el río.", exFr:"Il y a beaucoup de poissons dans la rivière.", cat:"animales", tags:["animal"] },
+  { id:"a1_136", es:"el caballo", fr:"le cheval", exEs:"Me gusta montar a caballo.", exFr:"J'aime monter à cheval.", cat:"animales", tags:["animal"] },
+  { id:"a1_137", es:"la vaca", fr:"la vache", exEs:"Las vacas están en el campo.", exFr:"Les vaches sont dans le champ.", cat:"animales", tags:["animal"] },
+  { id:"a1_138", es:"el ratón", fr:"la souris", exEs:"El gato persigue al ratón.", exFr:"Le chat poursuit la souris.", cat:"animales", tags:["animal"] },
+  { id:"a1_139", es:"el conejo", fr:"le lapin", exEs:"Los niños tienen un conejo blanco.", exFr:"Les enfants ont un lapin blanc.", cat:"animales", tags:["animal"] },
+  { id:"a1_140", es:"la mariposa", fr:"le papillon", exEs:"La mariposa vuela por el jardín.", exFr:"Le papillon vole dans le jardin.", cat:"animales", tags:["animal"] },
+  { id:"a1_141", es:"el león", fr:"le lion", exEs:"El león es el rey de la selva.", exFr:"Le lion est le roi de la jungle.", cat:"animales", tags:["animal"] },
+  { id:"a1_142", es:"el mono", fr:"le singe", exEs:"Los monos viven en los árboles.", exFr:"Les singes vivent dans les arbres.", cat:"animales", tags:["animal"] },
+  { id:"a1_143", es:"la tortuga", fr:"la tortue", exEs:"La tortuga camina muy despacio.", exFr:"La tortue marche très lentement.", cat:"animales", tags:["animal"] },
+
+  // --- Números ---
+  { id:"a1_144", es:"uno", fr:"un (1)", exEs:"Solo quiero uno.", exFr:"Je n'en veux qu'un.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_145", es:"dos", fr:"deux (2)", exEs:"Tengo dos hermanos.", exFr:"J'ai deux frères.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_146", es:"tres", fr:"trois (3)", exEs:"Son las tres de la tarde.", exFr:"Il est trois heures de l'après-midi.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_147", es:"cuatro", fr:"quatre (4)", exEs:"Hay cuatro estaciones.", exFr:"Il y a quatre saisons.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_148", es:"cinco", fr:"cinq (5)", exEs:"Tengo cinco dedos en cada mano.", exFr:"J'ai cinq doigts à chaque main.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_149", es:"seis", fr:"six (6)", exEs:"Trabajo seis horas al día.", exFr:"Je travaille six heures par jour.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_150", es:"siete", fr:"sept (7)", exEs:"La semana tiene siete días.", exFr:"La semaine a sept jours.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_151", es:"ocho", fr:"huit (8)", exEs:"Me levanto a las ocho.", exFr:"Je me lève à huit heures.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_152", es:"nueve", fr:"neuf (9)", exEs:"Faltan nueve días para Navidad.", exFr:"Il reste neuf jours avant Noël.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_153", es:"diez", fr:"dix (10)", exEs:"Cuenta hasta diez.", exFr:"Compte jusqu'à dix.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_154", es:"veinte", fr:"vingt (20)", exEs:"Tengo veinte años.", exFr:"J'ai vingt ans.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_155", es:"cien", fr:"cent (100)", exEs:"Cuesta cien euros.", exFr:"Ça coûte cent euros.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_156", es:"mil", fr:"mille (1000)", exEs:"Viven a mil kilómetros de aquí.", exFr:"Ils vivent à mille kilomètres d'ici.", cat:"numeros", tags:["nombre"] },
+  { id:"a1_157", es:"primero", fr:"premier", exEs:"Es la primera vez que vengo.", exFr:"C'est la première fois que je viens.", cat:"numeros", tags:["nombre","adjectif"] },
+  { id:"a1_158", es:"último", fr:"dernier", exEs:"Es el último día de vacaciones.", exFr:"C'est le dernier jour de vacances.", cat:"numeros", tags:["nombre","adjectif"] },
+
+  // --- Más comida ---
+  { id:"a1_159", es:"la ensalada", fr:"la salade", exEs:"Quiero una ensalada mixta.", exFr:"Je veux une salade composée.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_160", es:"la sopa", fr:"la soupe", exEs:"La sopa está muy caliente.", exFr:"La soupe est très chaude.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_161", es:"el postre", fr:"le dessert", exEs:"¿Quieres un postre?", exFr:"Tu veux un dessert ?", cat:"comida", tags:["nourriture"] },
+  { id:"a1_162", es:"el azúcar", fr:"le sucre", exEs:"¿Cuánto azúcar quieres?", exFr:"Combien de sucre tu veux ?", cat:"comida", tags:["nourriture"] },
+  { id:"a1_163", es:"la sal", fr:"le sel", exEs:"Pásame la sal, por favor.", exFr:"Passe-moi le sel, s'il te plaît.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_164", es:"la patata", fr:"la pomme de terre", exEs:"Las patatas fritas son mi comida favorita.", exFr:"Les frites sont mon plat préféré.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_165", es:"el tomate", fr:"la tomate", exEs:"Necesito tomates para la ensalada.", exFr:"J'ai besoin de tomates pour la salade.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_166", es:"la manzana", fr:"la pomme", exEs:"Una manzana al día es muy sano.", exFr:"Une pomme par jour c'est très sain.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_167", es:"el plátano", fr:"la banane", exEs:"Me como un plátano después del deporte.", exFr:"Je mange une banane après le sport.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_168", es:"el helado", fr:"la glace (crème glacée)", exEs:"En verano como mucho helado.", exFr:"En été je mange beaucoup de glace.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_169", es:"la mantequilla", fr:"le beurre", exEs:"Pon mantequilla en el pan.", exFr:"Mets du beurre sur le pain.", cat:"comida", tags:["nourriture"] },
+  { id:"a1_170", es:"el aceite", fr:"l'huile", exEs:"El aceite de oliva es muy bueno.", exFr:"L'huile d'olive est très bonne.", cat:"comida", tags:["nourriture"] },
+
+  // --- Más casa ---
+  { id:"a1_171", es:"el jardín", fr:"le jardin", exEs:"Tenemos un jardín pequeño.", exFr:"Nous avons un petit jardin.", cat:"casa", tags:["logement"] },
+  { id:"a1_172", es:"el salón", fr:"le salon", exEs:"Vemos la televisión en el salón.", exFr:"Nous regardons la télé dans le salon.", cat:"casa", tags:["logement"] },
+  { id:"a1_173", es:"la escalera", fr:"l'escalier", exEs:"Sube por la escalera.", exFr:"Monte par l'escalier.", cat:"casa", tags:["logement"] },
+  { id:"a1_174", es:"el piso", fr:"l'appartement / l'étage", exEs:"Vivo en un piso en el centro.", exFr:"J'habite dans un appartement dans le centre.", cat:"casa", tags:["logement"] },
+  { id:"a1_175", es:"el espejo", fr:"le miroir", exEs:"Se mira en el espejo.", exFr:"Il/Elle se regarde dans le miroir.", cat:"casa", tags:["meuble"] },
+  { id:"a1_176", es:"la lámpara", fr:"la lampe", exEs:"Enciende la lámpara, está oscuro.", exFr:"Allume la lampe, il fait sombre.", cat:"casa", tags:["meuble"] },
+  { id:"a1_177", es:"el sofá", fr:"le canapé", exEs:"Me siento en el sofá a leer.", exFr:"Je m'assois sur le canapé pour lire.", cat:"casa", tags:["meuble"] },
+  { id:"a1_178", es:"la nevera", fr:"le réfrigérateur", exEs:"Pon la leche en la nevera.", exFr:"Mets le lait dans le réfrigérateur.", cat:"casa", tags:["meuble"] },
+
+  // --- Más verbos ---
+  { id:"a1_179", es:"abrir", fr:"ouvrir", exEs:"Abre el libro por la página diez.", exFr:"Ouvre le livre à la page dix.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_180", es:"cerrar", fr:"fermer", exEs:"Cierra los ojos.", exFr:"Ferme les yeux.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_181", es:"dar", fr:"donner", exEs:"Te doy un regalo.", exFr:"Je te donne un cadeau.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_182", es:"decir", fr:"dire", exEs:"¿Qué quieres decir?", exFr:"Qu'est-ce que tu veux dire ?", cat:"verbos", tags:["verbe"] },
+  { id:"a1_183", es:"poner", fr:"mettre / poser", exEs:"Pon el libro en la mesa.", exFr:"Pose le livre sur la table.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_184", es:"llamar", fr:"appeler", exEs:"Te llamo esta noche.", exFr:"Je t'appelle ce soir.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_185", es:"mirar", fr:"regarder", exEs:"Mira ese pájaro.", exFr:"Regarde cet oiseau.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_186", es:"escuchar", fr:"écouter", exEs:"Escucha esta canción.", exFr:"Écoute cette chanson.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_187", es:"tocar", fr:"toucher / jouer (instrument)", exEs:"No toques eso.", exFr:"Ne touche pas ça.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_188", es:"cantar", fr:"chanter", exEs:"Le gusta cantar en la ducha.", exFr:"Il aime chanter sous la douche.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_189", es:"subir", fr:"monter", exEs:"Sube al segundo piso.", exFr:"Monte au deuxième étage.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_190", es:"bajar", fr:"descendre", exEs:"Baja las escaleras despacio.", exFr:"Descends les escaliers doucement.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_191", es:"caminar", fr:"marcher", exEs:"Camino al trabajo cada día.", exFr:"Je marche au travail chaque jour.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_192", es:"sentarse", fr:"s'asseoir", exEs:"Siéntate aquí, por favor.", exFr:"Assieds-toi ici, s'il te plaît.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_193", es:"lavarse", fr:"se laver", exEs:"Me lavo las manos antes de comer.", exFr:"Je me lave les mains avant de manger.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_194", es:"vestirse", fr:"s'habiller", exEs:"Me visto rápido por la mañana.", exFr:"Je m'habille vite le matin.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_195", es:"jugar", fr:"jouer", exEs:"Los niños juegan en el parque.", exFr:"Les enfants jouent dans le parc.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_196", es:"cortar", fr:"couper", exEs:"Corta el pan, por favor.", exFr:"Coupe le pain, s'il te plaît.", cat:"verbos", tags:["verbe"] },
+
+  // --- Más adjetivos ---
+  { id:"a1_197", es:"alto", fr:"grand (taille) / haut", exEs:"Mi hermano es muy alto.", exFr:"Mon frère est très grand.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_198", es:"bajo", fr:"petit (taille) / bas", exEs:"La mesa es demasiado baja.", exFr:"La table est trop basse.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_199", es:"gordo", fr:"gros", exEs:"El gato está un poco gordo.", exFr:"Le chat est un peu gros.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_200", es:"delgado", fr:"mince / maigre", exEs:"Es alto y delgado.", exFr:"Il est grand et mince.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_201", es:"largo", fr:"long", exEs:"El viaje es muy largo.", exFr:"Le voyage est très long.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_202", es:"corto", fr:"court", exEs:"Lleva el pelo corto.", exFr:"Il/Elle a les cheveux courts.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_203", es:"caliente", fr:"chaud", exEs:"La sopa está muy caliente.", exFr:"La soupe est très chaude.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_204", es:"frío", fr:"froid", exEs:"El agua está fría.", exFr:"L'eau est froide.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_205", es:"fuerte", fr:"fort", exEs:"Es un hombre muy fuerte.", exFr:"C'est un homme très fort.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_206", es:"joven", fr:"jeune", exEs:"Es una chica joven.", exFr:"C'est une jeune fille.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_207", es:"simpático", fr:"sympathique", exEs:"Tu amigo es muy simpático.", exFr:"Ton ami est très sympathique.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_208", es:"inteligente", fr:"intelligent", exEs:"Es una persona muy inteligente.", exFr:"C'est une personne très intelligente.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_209", es:"feo", fr:"laid / moche", exEs:"Ese cuadro es bastante feo.", exFr:"Ce tableau est assez moche.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_210", es:"limpio", fr:"propre", exEs:"La casa está muy limpia.", exFr:"La maison est très propre.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_211", es:"sucio", fr:"sale", exEs:"Tienes las manos sucias.", exFr:"Tu as les mains sales.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a1_212", es:"enfadado", fr:"en colère / fâché", exEs:"Está enfadado conmigo.", exFr:"Il est fâché contre moi.", cat:"adjetivos", tags:["adjectif"] },
+
+  // --- Más ropa ---
+  { id:"a1_213", es:"el abrigo", fr:"le manteau", exEs:"Ponte el abrigo, hace mucho frío.", exFr:"Mets ton manteau, il fait très froid.", cat:"ropa", tags:["vêtement"] },
+  { id:"a1_214", es:"las botas", fr:"les bottes", exEs:"Necesito botas para la lluvia.", exFr:"J'ai besoin de bottes pour la pluie.", cat:"ropa", tags:["vêtement"] },
+  { id:"a1_215", es:"la camiseta", fr:"le t-shirt", exEs:"Lleva una camiseta azul.", exFr:"Il porte un t-shirt bleu.", cat:"ropa", tags:["vêtement"] },
+  { id:"a1_216", es:"las gafas", fr:"les lunettes", exEs:"Sin gafas no veo nada.", exFr:"Sans lunettes je ne vois rien.", cat:"ropa", tags:["vêtement"] },
+  { id:"a1_217", es:"el bolso", fr:"le sac", exEs:"He dejado el bolso en el coche.", exFr:"J'ai laissé mon sac dans la voiture.", cat:"ropa", tags:["vêtement"] },
+  { id:"a1_218", es:"el jersey", fr:"le pull", exEs:"Ponte un jersey de lana.", exFr:"Mets un pull en laine.", cat:"ropa", tags:["vêtement"] },
+
+  // --- Más tiempo ---
+  { id:"a1_219", es:"la semana", fr:"la semaine", exEs:"Esta semana estoy muy ocupado.", exFr:"Cette semaine je suis très occupé.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_220", es:"el mes", fr:"le mois", exEs:"El mes de agosto es muy caluroso.", exFr:"Le mois d'août est très chaud.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_221", es:"el año", fr:"l'année / l'an", exEs:"El año pasado viajé a España.", exFr:"L'année dernière j'ai voyagé en Espagne.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_222", es:"la hora", fr:"l'heure", exEs:"¿Qué hora es?", exFr:"Quelle heure est-il ?", cat:"tiempo", tags:["temps"] },
+  { id:"a1_223", es:"temprano", fr:"tôt", exEs:"Me levanto temprano.", exFr:"Je me lève tôt.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_224", es:"tarde", fr:"tard / l'après-midi", exEs:"Llegas tarde.", exFr:"Tu arrives en retard.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_225", es:"pronto", fr:"bientôt", exEs:"Nos vemos pronto.", exFr:"On se voit bientôt.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_226", es:"despacio", fr:"lentement / doucement", exEs:"Habla más despacio, por favor.", exFr:"Parle plus lentement, s'il te plaît.", cat:"tiempo", tags:["temps"] },
+
+  // --- Más esenciales ---
+  { id:"a1_227", es:"todo", fr:"tout", exEs:"Todo está bien.", exFr:"Tout va bien.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_228", es:"nada", fr:"rien", exEs:"No quiero nada.", exFr:"Je ne veux rien.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_229", es:"algo", fr:"quelque chose", exEs:"¿Quieres algo de beber?", exFr:"Tu veux quelque chose à boire ?", cat:"esenciales", tags:["basique"] },
+  { id:"a1_230", es:"alguien", fr:"quelqu'un", exEs:"Alguien llama a la puerta.", exFr:"Quelqu'un frappe à la porte.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_231", es:"nadie", fr:"personne", exEs:"No hay nadie en casa.", exFr:"Il n'y a personne à la maison.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_232", es:"otro", fr:"autre", exEs:"Dame otro vaso.", exFr:"Donne-moi un autre verre.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_233", es:"mismo", fr:"même", exEs:"Tenemos el mismo coche.", exFr:"Nous avons la même voiture.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_234", es:"cada", fr:"chaque", exEs:"Cada día aprendo algo nuevo.", exFr:"Chaque jour j'apprends quelque chose de nouveau.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_235", es:"porque", fr:"parce que", exEs:"No voy porque estoy cansado.", exFr:"Je n'y vais pas parce que je suis fatigué.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_236", es:"cuando", fr:"quand / lorsque", exEs:"Cuando llueve, me quedo en casa.", exFr:"Quand il pleut, je reste à la maison.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_237", es:"donde", fr:"où", exEs:"Ese es el lugar donde nací.", exFr:"C'est l'endroit où je suis né.", cat:"esenciales", tags:["basique"] },
+  { id:"a1_238", es:"entre", fr:"entre", exEs:"Está entre la mesa y la silla.", exFr:"C'est entre la table et la chaise.", cat:"esenciales", tags:["basique"] },
+
+  // --- Más lugares ---
+  { id:"a1_239", es:"la biblioteca", fr:"la bibliothèque", exEs:"Estudio en la biblioteca.", exFr:"J'étudie à la bibliothèque.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_240", es:"el cine", fr:"le cinéma", exEs:"Vamos al cine esta noche.", exFr:"On va au cinéma ce soir.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_241", es:"el supermercado", fr:"le supermarché", exEs:"Voy al supermercado a comprar comida.", exFr:"Je vais au supermarché acheter de la nourriture.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_242", es:"la piscina", fr:"la piscine", exEs:"Los niños nadan en la piscina.", exFr:"Les enfants nagent dans la piscine.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_243", es:"el aeropuerto", fr:"l'aéroport", exEs:"El aeropuerto está a treinta kilómetros.", exFr:"L'aéroport est à trente kilomètres.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_244", es:"el mercado", fr:"le marché", exEs:"Compro fruta en el mercado.", exFr:"J'achète des fruits au marché.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_245", es:"la iglesia", fr:"l'église", exEs:"La iglesia está en la plaza.", exFr:"L'église est sur la place.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_246", es:"el río", fr:"la rivière", exEs:"Hay un río cerca de mi pueblo.", exFr:"Il y a une rivière près de mon village.", cat:"lugares", tags:["lieu"] },
 ];
 
 // ============================================================
@@ -276,6 +411,98 @@ const A2 = [
   { id:"a2_088", es:"lento", fr:"lent", exEs:"Internet está muy lento hoy.", exFr:"Internet est très lent aujourd'hui.", cat:"adjetivos", tags:["adjectif"] },
   { id:"a2_089", es:"libre", fr:"libre", exEs:"¿Estás libre este sábado?", exFr:"Tu es libre ce samedi ?", cat:"adjetivos", tags:["adjectif"] },
   { id:"a2_090", es:"ocupado", fr:"occupé", exEs:"Estoy ocupado, te llamo luego.", exFr:"Je suis occupé, je te rappelle plus tard.", cat:"adjetivos", tags:["adjectif"] },
+
+  // --- Tecnología ---
+  { id:"a2_091", es:"el teléfono", fr:"le téléphone", exEs:"He olvidado el teléfono en casa.", exFr:"J'ai oublié le téléphone à la maison.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_092", es:"el móvil", fr:"le portable", exEs:"Mi móvil no tiene batería.", exFr:"Mon portable n'a plus de batterie.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_093", es:"internet", fr:"internet", exEs:"No tengo conexión a internet.", exFr:"Je n'ai pas de connexion internet.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_094", es:"la contraseña", fr:"le mot de passe", exEs:"No recuerdo mi contraseña.", exFr:"Je ne me souviens pas de mon mot de passe.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_095", es:"la aplicación", fr:"l'application", exEs:"Descarga esta aplicación en el móvil.", exFr:"Télécharge cette application sur le portable.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_096", es:"el mensaje", fr:"le message", exEs:"Te he enviado un mensaje.", exFr:"Je t'ai envoyé un message.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_097", es:"la foto", fr:"la photo", exEs:"Voy a hacer una foto.", exFr:"Je vais prendre une photo.", cat:"tecnologia", tags:["technologie"] },
+  { id:"a2_098", es:"buscar", fr:"chercher", exEs:"Busca la dirección en internet.", exFr:"Cherche l'adresse sur internet.", cat:"tecnologia", tags:["technologie","verbe"] },
+
+  // --- Más viajes ---
+  { id:"a2_099", es:"la habitación", fr:"la chambre (hôtel)", exEs:"He reservado una habitación doble.", exFr:"J'ai réservé une chambre double.", cat:"viajes", tags:["voyage"] },
+  { id:"a2_100", es:"el equipaje", fr:"les bagages", exEs:"¿Dónde puedo dejar el equipaje?", exFr:"Où puis-je laisser mes bagages ?", cat:"viajes", tags:["voyage"] },
+  { id:"a2_101", es:"el vuelo", fr:"le vol", exEs:"El vuelo tiene dos horas de retraso.", exFr:"Le vol a deux heures de retard.", cat:"viajes", tags:["voyage"] },
+  { id:"a2_102", es:"la guía", fr:"le guide", exEs:"Compramos una guía turística.", exFr:"Nous avons acheté un guide touristique.", cat:"viajes", tags:["voyage"] },
+  { id:"a2_103", es:"el recuerdo", fr:"le souvenir (objet)", exEs:"Compré un recuerdo para mi madre.", exFr:"J'ai acheté un souvenir pour ma mère.", cat:"viajes", tags:["voyage"] },
+  { id:"a2_104", es:"la frontera", fr:"la frontière", exEs:"Cruzamos la frontera en coche.", exFr:"Nous avons traversé la frontière en voiture.", cat:"viajes", tags:["voyage"] },
+
+  // --- Más salud ---
+  { id:"a2_105", es:"la cita", fr:"le rendez-vous", exEs:"Tengo una cita con el dentista.", exFr:"J'ai un rendez-vous chez le dentiste.", cat:"salud", tags:["santé"] },
+  { id:"a2_106", es:"el resfriado", fr:"le rhume", exEs:"Tengo un resfriado terrible.", exFr:"J'ai un rhume terrible.", cat:"salud", tags:["santé"] },
+  { id:"a2_107", es:"la tos", fr:"la toux", exEs:"La tos no me deja dormir.", exFr:"La toux m'empêche de dormir.", cat:"salud", tags:["santé"] },
+  { id:"a2_108", es:"mareado", fr:"avoir le vertige / nauséeux", exEs:"Estoy un poco mareado.", exFr:"J'ai un peu le vertige.", cat:"salud", tags:["santé","adjectif"] },
+  { id:"a2_109", es:"la herida", fr:"la blessure", exEs:"La herida no es grave.", exFr:"La blessure n'est pas grave.", cat:"salud", tags:["santé"] },
+  { id:"a2_110", es:"curar", fr:"guérir / soigner", exEs:"El médico puede curar esa enfermedad.", exFr:"Le médecin peut guérir cette maladie.", cat:"salud", tags:["santé","verbe"] },
+  { id:"a2_111", es:"la alergia", fr:"l'allergie", exEs:"Tengo alergia al polen.", exFr:"Je suis allergique au pollen.", cat:"salud", tags:["santé"] },
+
+  // --- Más trabajo ---
+  { id:"a2_112", es:"el horario", fr:"l'emploi du temps / l'horaire", exEs:"Mi horario de trabajo es de 9 a 5.", exFr:"Mon horaire de travail est de 9h à 17h.", cat:"trabajo", tags:["travail"] },
+  { id:"a2_113", es:"el compañero", fr:"le collègue / camarade", exEs:"Mi compañero de trabajo es muy amable.", exFr:"Mon collègue de travail est très aimable.", cat:"trabajo", tags:["travail"] },
+  { id:"a2_114", es:"la experiencia", fr:"l'expérience", exEs:"No tengo experiencia en este campo.", exFr:"Je n'ai pas d'expérience dans ce domaine.", cat:"trabajo", tags:["travail"] },
+  { id:"a2_115", es:"el cliente", fr:"le client", exEs:"El cliente siempre tiene razón.", exFr:"Le client a toujours raison.", cat:"trabajo", tags:["travail"] },
+  { id:"a2_116", es:"la factura", fr:"la facture", exEs:"¿Me puede dar la factura?", exFr:"Pouvez-vous me donner la facture ?", cat:"trabajo", tags:["travail"] },
+  { id:"a2_117", es:"ganar", fr:"gagner", exEs:"Gana un buen sueldo.", exFr:"Il gagne un bon salaire.", cat:"trabajo", tags:["travail","verbe"] },
+
+  // --- Emociones básicas ---
+  { id:"a2_118", es:"contento", fr:"content / satisfait", exEs:"Estoy muy contento con los resultados.", exFr:"Je suis très content des résultats.", cat:"emociones", tags:["émotion","adjectif"] },
+  { id:"a2_119", es:"triste", fr:"triste", exEs:"Está triste porque se va su amigo.", exFr:"Il/Elle est triste parce que son ami s'en va.", cat:"emociones", tags:["émotion","adjectif"] },
+  { id:"a2_120", es:"nervioso", fr:"nerveux", exEs:"Estoy nervioso antes del examen.", exFr:"Je suis nerveux avant l'examen.", cat:"emociones", tags:["émotion","adjectif"] },
+  { id:"a2_121", es:"aburrido", fr:"ennuyé / ennuyeux", exEs:"La película fue muy aburrida.", exFr:"Le film était très ennuyeux.", cat:"emociones", tags:["émotion","adjectif"] },
+  { id:"a2_122", es:"asustado", fr:"effrayé", exEs:"El niño está asustado por la tormenta.", exFr:"L'enfant est effrayé par l'orage.", cat:"emociones", tags:["émotion","adjectif"] },
+  { id:"a2_123", es:"emocionado", fr:"ému / enthousiaste", exEs:"Estoy emocionado por el viaje.", exFr:"Je suis enthousiaste pour le voyage.", cat:"emociones", tags:["émotion","adjectif"] },
+  { id:"a2_124", es:"preocupado", fr:"inquiet", exEs:"Estoy preocupado por mi examen.", exFr:"Je suis inquiet pour mon examen.", cat:"emociones", tags:["émotion","adjectif"] },
+
+  // --- Más ciudad ---
+  { id:"a2_125", es:"el puente", fr:"le pont", exEs:"El puente cruza el río.", exFr:"Le pont traverse la rivière.", cat:"ciudad", tags:["ville"] },
+  { id:"a2_126", es:"la acera", fr:"le trottoir", exEs:"Camina por la acera.", exFr:"Marche sur le trottoir.", cat:"ciudad", tags:["ville"] },
+  { id:"a2_127", es:"el ayuntamiento", fr:"la mairie", exEs:"El ayuntamiento está en la plaza.", exFr:"La mairie est sur la place.", cat:"ciudad", tags:["ville","lieu"] },
+  { id:"a2_128", es:"la fuente", fr:"la fontaine", exEs:"Los niños juegan cerca de la fuente.", exFr:"Les enfants jouent près de la fontaine.", cat:"ciudad", tags:["ville"] },
+  { id:"a2_129", es:"el aparcamiento", fr:"le parking", exEs:"No encuentro aparcamiento.", exFr:"Je ne trouve pas de parking.", cat:"ciudad", tags:["ville"] },
+  { id:"a2_130", es:"el centro", fr:"le centre-ville", exEs:"Vamos al centro a dar un paseo.", exFr:"On va en centre-ville se promener.", cat:"ciudad", tags:["ville"] },
+
+  // --- Más verbos A2 ---
+  { id:"a2_131", es:"cambiar", fr:"changer", exEs:"Quiero cambiar de trabajo.", exFr:"Je veux changer de travail.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_132", es:"decidir", fr:"décider", exEs:"No puedo decidir qué comer.", exFr:"Je ne peux pas décider quoi manger.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_133", es:"recibir", fr:"recevoir", exEs:"He recibido tu mensaje.", exFr:"J'ai reçu ton message.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_134", es:"enviar", fr:"envoyer", exEs:"Voy a enviar el paquete mañana.", exFr:"Je vais envoyer le colis demain.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_135", es:"empezar", fr:"commencer", exEs:"La clase empieza a las nueve.", exFr:"Le cours commence à neuf heures.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_136", es:"terminar", fr:"finir / terminer", exEs:"¿A qué hora terminas de trabajar?", exFr:"À quelle heure finis-tu de travailler ?", cat:"verbos", tags:["verbe"] },
+  { id:"a2_137", es:"pasar", fr:"passer / se passer", exEs:"¿Qué pasa?", exFr:"Qu'est-ce qui se passe ?", cat:"verbos", tags:["verbe"] },
+  { id:"a2_138", es:"quedar", fr:"rester / se retrouver", exEs:"¿Quedamos a las ocho?", exFr:"On se retrouve à huit heures ?", cat:"verbos", tags:["verbe"] },
+  { id:"a2_139", es:"seguir", fr:"suivre / continuer", exEs:"Sigue recto y gira a la izquierda.", exFr:"Continue tout droit et tourne à gauche.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_140", es:"parecer", fr:"sembler / paraître", exEs:"Parece que va a llover.", exFr:"Il semble qu'il va pleuvoir.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_141", es:"apagar", fr:"éteindre", exEs:"Apaga la luz antes de salir.", exFr:"Éteins la lumière avant de sortir.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_142", es:"encender", fr:"allumer", exEs:"Enciende la televisión.", exFr:"Allume la télévision.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_143", es:"preguntar", fr:"demander (question)", exEs:"Quiero preguntar algo.", exFr:"Je veux demander quelque chose.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_144", es:"responder", fr:"répondre", exEs:"No ha respondido a mi correo.", exFr:"Il n'a pas répondu à mon e-mail.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_145", es:"gustar", fr:"plaire / aimer", exEs:"Me gusta mucho la música latina.", exFr:"J'aime beaucoup la musique latine.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_146", es:"preferir", fr:"préférer", exEs:"Prefiero el café al té.", exFr:"Je préfère le café au thé.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_147", es:"intentar", fr:"essayer", exEs:"Voy a intentar otra vez.", exFr:"Je vais essayer encore une fois.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_148", es:"funcionar", fr:"fonctionner / marcher", exEs:"El ascensor no funciona.", exFr:"L'ascenseur ne marche pas.", cat:"verbos", tags:["verbe"] },
+
+  // --- Más ocio ---
+  { id:"a2_149", es:"el deporte", fr:"le sport", exEs:"Practico deporte tres veces por semana.", exFr:"Je fais du sport trois fois par semaine.", cat:"ocio", tags:["sport"] },
+  { id:"a2_150", es:"el partido", fr:"le match", exEs:"¿Viste el partido de ayer?", exFr:"Tu as vu le match d'hier ?", cat:"ocio", tags:["sport"] },
+  { id:"a2_151", es:"ganar", fr:"gagner (match)", exEs:"Mi equipo ganó el partido.", exFr:"Mon équipe a gagné le match.", cat:"ocio", tags:["sport","verbe"] },
+  { id:"a2_152", es:"el paseo", fr:"la promenade", exEs:"Damos un paseo por el parque.", exFr:"On fait une promenade dans le parc.", cat:"ocio", tags:["loisir"] },
+  { id:"a2_153", es:"descansar", fr:"se reposer", exEs:"Los domingos descanso en casa.", exFr:"Le dimanche je me repose à la maison.", cat:"ocio", tags:["loisir","verbe"] },
+  { id:"a2_154", es:"el concierto", fr:"le concert", exEs:"Fuimos a un concierto increíble.", exFr:"On est allés à un concert incroyable.", cat:"ocio", tags:["loisir"] },
+
+  // --- Más adjetivos A2 ---
+  { id:"a2_155", es:"seguro", fr:"sûr / en sécurité", exEs:"¿Estás seguro de eso?", exFr:"Tu es sûr de ça ?", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_156", es:"peligroso", fr:"dangereux", exEs:"Conducir rápido es peligroso.", exFr:"Conduire vite est dangereux.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_157", es:"divertido", fr:"amusant / drôle", exEs:"La fiesta fue muy divertida.", exFr:"La fête était très amusante.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_158", es:"interesante", fr:"intéressant", exEs:"El libro es muy interesante.", exFr:"Le livre est très intéressant.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_159", es:"diferente", fr:"différent", exEs:"Cada país es diferente.", exFr:"Chaque pays est différent.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_160", es:"igual", fr:"pareil / égal", exEs:"Somos iguales ante la ley.", exFr:"Nous sommes égaux devant la loi.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_161", es:"extranjero", fr:"étranger", exEs:"Hay muchos turistas extranjeros.", exFr:"Il y a beaucoup de touristes étrangers.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_162", es:"agradable", fr:"agréable", exEs:"Es un lugar muy agradable.", exFr:"C'est un endroit très agréable.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_163", es:"horrible", fr:"horrible", exEs:"El tráfico es horrible.", exFr:"Le trafic est horrible.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_164", es:"perfecto", fr:"parfait", exEs:"El tiempo es perfecto para la playa.", exFr:"Le temps est parfait pour la plage.", cat:"adjetivos", tags:["adjectif"] },
 ];
 
 // ============================================================
@@ -367,6 +594,87 @@ const B1 = [
   { id:"b1_068", es:"la oportunidad", fr:"l'opportunité", exEs:"No dejes pasar esta oportunidad.", exFr:"Ne laisse pas passer cette opportunité.", cat:"abstractos", tags:["abstrait"] },
   { id:"b1_069", es:"la experiencia", fr:"l'expérience", exEs:"Fue una experiencia inolvidable.", exFr:"Ce fut une expérience inoubliable.", cat:"abstractos", tags:["abstrait"] },
   { id:"b1_070", es:"la decisión", fr:"la décision", exEs:"Tomar decisiones es difícil.", exFr:"Prendre des décisions est difficile.", cat:"abstractos", tags:["abstrait"] },
+
+  // --- Más sentimientos ---
+  { id:"b1_071", es:"la envidia", fr:"l'envie / la jalousie", exEs:"La envidia es un sentimiento destructivo.", exFr:"L'envie est un sentiment destructeur.", cat:"sentimientos", tags:["émotion"] },
+  { id:"b1_072", es:"la culpa", fr:"la culpabilité / la faute", exEs:"Siente culpa por lo que dijo.", exFr:"Il/Elle se sent coupable de ce qu'il/elle a dit.", cat:"sentimientos", tags:["émotion"] },
+  { id:"b1_073", es:"la nostalgia", fr:"la nostalgie", exEs:"Siente nostalgia de su país.", exFr:"Il/Elle a la nostalgie de son pays.", cat:"sentimientos", tags:["émotion"] },
+  { id:"b1_074", es:"la ternura", fr:"la tendresse", exEs:"Mira al bebé con ternura.", exFr:"Il/Elle regarde le bébé avec tendresse.", cat:"sentimientos", tags:["émotion"] },
+  { id:"b1_075", es:"emocionarse", fr:"s'émouvoir", exEs:"Se emocionó al ver a su familia.", exFr:"Il s'est ému en voyant sa famille.", cat:"sentimientos", tags:["émotion","verbe"] },
+  { id:"b1_076", es:"arrepentirse", fr:"regretter / se repentir", exEs:"Se arrepiente de no haber estudiado.", exFr:"Il regrette de ne pas avoir étudié.", cat:"sentimientos", tags:["émotion","verbe"] },
+  { id:"b1_077", es:"odiar", fr:"détester / haïr", exEs:"Odio levantarme temprano.", exFr:"Je déteste me lever tôt.", cat:"sentimientos", tags:["émotion","verbe"] },
+  { id:"b1_078", es:"extrañar", fr:"manquer (ressentir l'absence)", exEs:"Extraño mucho a mis amigos.", exFr:"Mes amis me manquent beaucoup.", cat:"sentimientos", tags:["émotion","verbe"] },
+
+  // --- Más medios ---
+  { id:"b1_079", es:"el documental", fr:"le documentaire", exEs:"Vi un documental sobre la selva.", exFr:"J'ai vu un documentaire sur la jungle.", cat:"medios", tags:["média"] },
+  { id:"b1_080", es:"la serie", fr:"la série", exEs:"Estoy viendo una serie muy buena.", exFr:"Je regarde une très bonne série.", cat:"medios", tags:["média"] },
+  { id:"b1_081", es:"el podcast", fr:"le podcast", exEs:"Escucho podcasts en español.", exFr:"J'écoute des podcasts en espagnol.", cat:"medios", tags:["média"] },
+  { id:"b1_082", es:"la entrevista", fr:"l'interview / l'entretien", exEs:"Lei una entrevista con el director.", exFr:"J'ai lu une interview avec le réalisateur.", cat:"medios", tags:["média"] },
+  { id:"b1_083", es:"informar", fr:"informer", exEs:"Los medios informan sobre la crisis.", exFr:"Les médias informent sur la crise.", cat:"medios", tags:["média","verbe"] },
+  { id:"b1_084", es:"la censura", fr:"la censure", exEs:"La censura limita la libertad de expresión.", exFr:"La censure limite la liberté d'expression.", cat:"medios", tags:["média"] },
+
+  // --- Más medio ambiente ---
+  { id:"b1_085", es:"el planeta", fr:"la planète", exEs:"Debemos cuidar nuestro planeta.", exFr:"Nous devons prendre soin de notre planète.", cat:"medio_ambiente", tags:["environnement"] },
+  { id:"b1_086", es:"la energía", fr:"l'énergie", exEs:"La energía solar es el futuro.", exFr:"L'énergie solaire est l'avenir.", cat:"medio_ambiente", tags:["environnement"] },
+  { id:"b1_087", es:"los residuos", fr:"les déchets", exEs:"Hay que reducir los residuos plásticos.", exFr:"Il faut réduire les déchets plastiques.", cat:"medio_ambiente", tags:["environnement"] },
+  { id:"b1_088", es:"la sequía", fr:"la sécheresse", exEs:"La sequía afecta a los cultivos.", exFr:"La sécheresse affecte les cultures.", cat:"medio_ambiente", tags:["environnement"] },
+  { id:"b1_089", es:"la inundación", fr:"l'inondation", exEs:"Las inundaciones causaron muchos daños.", exFr:"Les inondations ont causé beaucoup de dégâts.", cat:"medio_ambiente", tags:["environnement"] },
+  { id:"b1_090", es:"sostenible", fr:"durable / soutenable", exEs:"Necesitamos un desarrollo sostenible.", exFr:"Nous avons besoin d'un développement durable.", cat:"medio_ambiente", tags:["environnement","adjectif"] },
+  { id:"b1_091", es:"la especie", fr:"l'espèce", exEs:"Muchas especies están en peligro.", exFr:"Beaucoup d'espèces sont en danger.", cat:"medio_ambiente", tags:["environnement"] },
+
+  // --- Más educación ---
+  { id:"b1_092", es:"la beca", fr:"la bourse (études)", exEs:"Recibió una beca para estudiar en el extranjero.", exFr:"Il/Elle a reçu une bourse pour étudier à l'étranger.", cat:"educacion", tags:["éducation"] },
+  { id:"b1_093", es:"el título", fr:"le diplôme", exEs:"Tiene un título en ingeniería.", exFr:"Il a un diplôme en ingénierie.", cat:"educacion", tags:["éducation"] },
+  { id:"b1_094", es:"el conocimiento", fr:"la connaissance / le savoir", exEs:"El conocimiento es poder.", exFr:"Le savoir c'est le pouvoir.", cat:"educacion", tags:["éducation"] },
+  { id:"b1_095", es:"enseñar", fr:"enseigner", exEs:"Le gusta enseñar a los niños.", exFr:"Il/Elle aime enseigner aux enfants.", cat:"educacion", tags:["éducation","verbe"] },
+  { id:"b1_096", es:"el alumno", fr:"l'élève", exEs:"Los alumnos preparan el examen.", exFr:"Les élèves préparent l'examen.", cat:"educacion", tags:["éducation"] },
+  { id:"b1_097", es:"la formación", fr:"la formation", exEs:"La formación continua es esencial.", exFr:"La formation continue est essentielle.", cat:"educacion", tags:["éducation"] },
+
+  // --- Más relaciones ---
+  { id:"b1_098", es:"el divorcio", fr:"le divorce", exEs:"El divorcio fue amistoso.", exFr:"Le divorce s'est fait à l'amiable.", cat:"relaciones", tags:["relation"] },
+  { id:"b1_099", es:"la infancia", fr:"l'enfance", exEs:"Tuve una infancia feliz.", exFr:"J'ai eu une enfance heureuse.", cat:"relaciones", tags:["relation"] },
+  { id:"b1_100", es:"enamorarse", fr:"tomber amoureux", exEs:"Se enamoró de ella en la universidad.", exFr:"Il est tombé amoureux d'elle à l'université.", cat:"relaciones", tags:["relation","verbe"] },
+  { id:"b1_101", es:"separarse", fr:"se séparer", exEs:"Decidieron separarse después de diez años.", exFr:"Ils ont décidé de se séparer après dix ans.", cat:"relaciones", tags:["relation","verbe"] },
+  { id:"b1_102", es:"el compromiso", fr:"l'engagement / les fiançailles", exEs:"El compromiso es la base de toda relación.", exFr:"L'engagement est la base de toute relation.", cat:"relaciones", tags:["relation"] },
+  { id:"b1_103", es:"convivir", fr:"vivre ensemble / cohabiter", exEs:"Conviven desde hace tres años.", exFr:"Ils vivent ensemble depuis trois ans.", cat:"relaciones", tags:["relation","verbe"] },
+
+  // --- Más expresiones ---
+  { id:"b1_104", es:"según", fr:"selon", exEs:"Según el periódico, mañana lloverá.", exFr:"Selon le journal, demain il pleuvra.", cat:"expresiones", tags:["connecteur"] },
+  { id:"b1_105", es:"mientras", fr:"pendant que / tandis que", exEs:"Mientras yo cocino, tú pones la mesa.", exFr:"Pendant que je cuisine, toi tu mets la table.", cat:"expresiones", tags:["connecteur"] },
+  { id:"b1_106", es:"aunque", fr:"bien que / même si", exEs:"Aunque llueva, iré a correr.", exFr:"Même s'il pleut, j'irai courir.", cat:"expresiones", tags:["connecteur"] },
+  { id:"b1_107", es:"por eso", fr:"c'est pourquoi / pour ça", exEs:"Estaba enfermo, por eso no vino.", exFr:"Il était malade, c'est pourquoi il n'est pas venu.", cat:"expresiones", tags:["connecteur"] },
+  { id:"b1_108", es:"es decir", fr:"c'est-à-dire", exEs:"Llega el viernes, es decir, pasado mañana.", exFr:"Il arrive vendredi, c'est-à-dire après-demain.", cat:"expresiones", tags:["connecteur"] },
+  { id:"b1_109", es:"en primer lugar", fr:"en premier lieu", exEs:"En primer lugar, debemos analizar el problema.", exFr:"En premier lieu, nous devons analyser le problème.", cat:"expresiones", tags:["connecteur"] },
+  { id:"b1_110", es:"por otra parte", fr:"d'autre part", exEs:"Por otra parte, el proyecto tiene ventajas.", exFr:"D'autre part, le projet a des avantages.", cat:"expresiones", tags:["connecteur"] },
+
+  // --- Más verbos B1 ---
+  { id:"b1_111", es:"compartir", fr:"partager", exEs:"Compartimos el apartamento entre tres.", exFr:"Nous partageons l'appartement à trois.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_112", es:"influir", fr:"influencer", exEs:"La publicidad influye en nuestras decisiones.", exFr:"La publicité influence nos décisions.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_113", es:"depender", fr:"dépendre", exEs:"Todo depende del presupuesto.", exFr:"Tout dépend du budget.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_114", es:"aceptar", fr:"accepter", exEs:"Acepto tu invitación con mucho gusto.", exFr:"J'accepte ton invitation avec plaisir.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_115", es:"rechazar", fr:"refuser / rejeter", exEs:"Rechazó la oferta de trabajo.", exFr:"Il/Elle a refusé l'offre d'emploi.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_116", es:"opinar", fr:"donner son avis", exEs:"¿Qué opinas sobre este tema?", exFr:"Quel est ton avis sur ce sujet ?", cat:"verbos", tags:["verbe"] },
+  { id:"b1_117", es:"demostrar", fr:"démontrer / prouver", exEs:"Hay que demostrar que funciona.", exFr:"Il faut prouver que ça fonctionne.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_118", es:"reducir", fr:"réduire", exEs:"Debemos reducir el consumo de plástico.", exFr:"Nous devons réduire la consommation de plastique.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_119", es:"aumentar", fr:"augmenter", exEs:"Los precios aumentan cada año.", exFr:"Les prix augmentent chaque année.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_120", es:"evitar", fr:"éviter", exEs:"Intento evitar el estrés.", exFr:"J'essaie d'éviter le stress.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_121", es:"permitir", fr:"permettre", exEs:"No me permiten entrar.", exFr:"Ils ne me permettent pas d'entrer.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_122", es:"obligar", fr:"obliger", exEs:"No me puedes obligar a ir.", exFr:"Tu ne peux pas m'obliger à y aller.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_123", es:"cumplir", fr:"accomplir / respecter", exEs:"Hay que cumplir las reglas.", exFr:"Il faut respecter les règles.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_124", es:"merecer", fr:"mériter", exEs:"Te mereces unas vacaciones.", exFr:"Tu mérites des vacances.", cat:"verbos", tags:["verbe"] },
+  { id:"b1_125", es:"aprovechar", fr:"profiter de", exEs:"Aprovecha el buen tiempo para salir.", exFr:"Profite du beau temps pour sortir.", cat:"verbos", tags:["verbe"] },
+
+  // --- Más abstractos ---
+  { id:"b1_126", es:"la igualdad", fr:"l'égalité", exEs:"Luchamos por la igualdad de derechos.", exFr:"Nous luttons pour l'égalité des droits.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_127", es:"la libertad", fr:"la liberté", exEs:"La libertad de expresión es un derecho.", exFr:"La liberté d'expression est un droit.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_128", es:"la justicia", fr:"la justice", exEs:"La justicia debe ser igual para todos.", exFr:"La justice doit être égale pour tous.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_129", es:"el desarrollo", fr:"le développement", exEs:"El desarrollo económico es importante.", exFr:"Le développement économique est important.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_130", es:"la solución", fr:"la solution", exEs:"Hay que encontrar una solución.", exFr:"Il faut trouver une solution.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_131", es:"el problema", fr:"le problème", exEs:"El problema principal es la falta de tiempo.", exFr:"Le problème principal est le manque de temps.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_132", es:"la causa", fr:"la cause", exEs:"Desconocemos la causa del accidente.", exFr:"Nous ignorons la cause de l'accident.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_133", es:"la consecuencia", fr:"la conséquence", exEs:"Hay que asumir las consecuencias.", exFr:"Il faut assumer les conséquences.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_134", es:"la opinión", fr:"l'opinion / l'avis", exEs:"En mi opinión, es una buena idea.", exFr:"À mon avis, c'est une bonne idée.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b1_135", es:"el objetivo", fr:"l'objectif", exEs:"Mi objetivo es hablar español con fluidez.", exFr:"Mon objectif est de parler espagnol couramment.", cat:"abstractos", tags:["abstrait"] },
 ];
 
 // ============================================================
@@ -451,6 +759,90 @@ const B2 = [
   { id:"b2_063", es:"el planteamiento", fr:"l'approche / la façon de poser", exEs:"Tu planteamiento es interesante.", exFr:"Ton approche est intéressante.", cat:"abstractos", tags:["abstrait"] },
   { id:"b2_064", es:"la coyuntura", fr:"la conjoncture", exEs:"La coyuntura económica es complicada.", exFr:"La conjoncture économique est compliquée.", cat:"abstractos", tags:["abstrait"] },
   { id:"b2_065", es:"el matiz", fr:"la nuance", exEs:"Hay un matiz importante en esa frase.", exFr:"Il y a une nuance importante dans cette phrase.", cat:"abstractos", tags:["abstrait"] },
+
+  // --- Ciencia y tecnología ---
+  { id:"b2_066", es:"el descubrimiento", fr:"la découverte", exEs:"Fue un descubrimiento revolucionario.", exFr:"Ce fut une découverte révolutionnaire.", cat:"ciencia", tags:["science"] },
+  { id:"b2_067", es:"el experimento", fr:"l'expérience (scientifique)", exEs:"El experimento confirmó la hipótesis.", exFr:"L'expérience a confirmé l'hypothèse.", cat:"ciencia", tags:["science"] },
+  { id:"b2_068", es:"la hipótesis", fr:"l'hypothèse", exEs:"Debemos verificar la hipótesis.", exFr:"Nous devons vérifier l'hypothèse.", cat:"ciencia", tags:["science"] },
+  { id:"b2_069", es:"el dato", fr:"la donnée", exEs:"Los datos confirman la tendencia.", exFr:"Les données confirment la tendance.", cat:"ciencia", tags:["science"] },
+  { id:"b2_070", es:"el avance", fr:"l'avancée / le progrès", exEs:"Los avances en medicina son impresionantes.", exFr:"Les avancées en médecine sont impressionnantes.", cat:"ciencia", tags:["science"] },
+  { id:"b2_071", es:"la inteligencia artificial", fr:"l'intelligence artificielle", exEs:"La inteligencia artificial cambiará muchos empleos.", exFr:"L'intelligence artificielle changera beaucoup d'emplois.", cat:"ciencia", tags:["science","technologie"] },
+  { id:"b2_072", es:"investigar", fr:"enquêter / faire de la recherche", exEs:"Investigaron las causas del accidente.", exFr:"Ils ont enquêté sur les causes de l'accident.", cat:"ciencia", tags:["science","verbe"] },
+  { id:"b2_073", es:"el algoritmo", fr:"l'algorithme", exEs:"El algoritmo detecta patrones de comportamiento.", exFr:"L'algorithme détecte des schémas de comportement.", cat:"ciencia", tags:["science","technologie"] },
+  { id:"b2_074", es:"la innovación", fr:"l'innovation", exEs:"La innovación es clave para el progreso.", exFr:"L'innovation est la clé du progrès.", cat:"ciencia", tags:["science"] },
+
+  // --- Más política ---
+  { id:"b2_075", es:"el partido", fr:"le parti (politique)", exEs:"El partido ganó las elecciones.", exFr:"Le parti a remporté les élections.", cat:"politica", tags:["politique"] },
+  { id:"b2_076", es:"la corrupción", fr:"la corruption", exEs:"La corrupción es un problema grave.", exFr:"La corruption est un problème grave.", cat:"politica", tags:["politique"] },
+  { id:"b2_077", es:"la manifestación", fr:"la manifestation", exEs:"Hubo una manifestación contra la reforma.", exFr:"Il y a eu une manifestation contre la réforme.", cat:"politica", tags:["politique"] },
+  { id:"b2_078", es:"el debate", fr:"le débat", exEs:"El debate fue muy polémico.", exFr:"Le débat a été très polémique.", cat:"politica", tags:["politique"] },
+  { id:"b2_079", es:"la reforma", fr:"la réforme", exEs:"Proponen una reforma del sistema educativo.", exFr:"Ils proposent une réforme du système éducatif.", cat:"politica", tags:["politique"] },
+  { id:"b2_080", es:"la libertad de prensa", fr:"la liberté de la presse", exEs:"La libertad de prensa es fundamental.", exFr:"La liberté de la presse est fondamentale.", cat:"politica", tags:["politique"] },
+  { id:"b2_081", es:"votar", fr:"voter", exEs:"Es importante votar en las elecciones.", exFr:"C'est important de voter aux élections.", cat:"politica", tags:["politique","verbe"] },
+  { id:"b2_082", es:"gobernar", fr:"gouverner", exEs:"Gobernar un país es una gran responsabilidad.", exFr:"Gouverner un pays est une grande responsabilité.", cat:"politica", tags:["politique","verbe"] },
+
+  // --- Más economía ---
+  { id:"b2_083", es:"la inflación", fr:"l'inflation", exEs:"La inflación ha subido mucho este año.", exFr:"L'inflation a beaucoup augmenté cette année.", cat:"economia", tags:["économie"] },
+  { id:"b2_084", es:"la competitividad", fr:"la compétitivité", exEs:"La competitividad del sector ha mejorado.", exFr:"La compétitivité du secteur s'est améliorée.", cat:"economia", tags:["économie"] },
+  { id:"b2_085", es:"el consumidor", fr:"le consommateur", exEs:"Los consumidores exigen más calidad.", exFr:"Les consommateurs exigent plus de qualité.", cat:"economia", tags:["économie"] },
+  { id:"b2_086", es:"el PIB", fr:"le PIB", exEs:"El PIB creció un 2% este trimestre.", exFr:"Le PIB a augmenté de 2% ce trimestre.", cat:"economia", tags:["économie"] },
+  { id:"b2_087", es:"la recesión", fr:"la récession", exEs:"El país entró en recesión.", exFr:"Le pays est entré en récession.", cat:"economia", tags:["économie"] },
+  { id:"b2_088", es:"la subvención", fr:"la subvention", exEs:"Recibió una subvención del gobierno.", exFr:"Il a reçu une subvention du gouvernement.", cat:"economia", tags:["économie"] },
+  { id:"b2_089", es:"cotizar", fr:"coter / cotiser", exEs:"La empresa cotiza en bolsa.", exFr:"L'entreprise est cotée en bourse.", cat:"economia", tags:["économie","verbe"] },
+
+  // --- Más expresiones idiomáticas ---
+  { id:"b2_090", es:"tirar la toalla", fr:"jeter l'éponge", exEs:"No tires la toalla, sigue intentándolo.", exFr:"Ne jette pas l'éponge, continue d'essayer.", cat:"modismos", tags:["expression"] },
+  { id:"b2_091", es:"tener madera de", fr:"avoir l'étoffe de", exEs:"Tiene madera de líder.", exFr:"Il a l'étoffe d'un leader.", cat:"modismos", tags:["expression"] },
+  { id:"b2_092", es:"estar en las nubes", fr:"être dans les nuages / rêvasser", exEs:"Siempre estás en las nubes.", exFr:"Tu es toujours dans les nuages.", cat:"modismos", tags:["expression"] },
+  { id:"b2_093", es:"no dar abasto", fr:"ne pas arriver à suivre", exEs:"Con tanto trabajo no doy abasto.", exFr:"Avec autant de travail je n'arrive pas à suivre.", cat:"modismos", tags:["expression"] },
+  { id:"b2_094", es:"costar un ojo de la cara", fr:"coûter les yeux de la tête", exEs:"Ese coche cuesta un ojo de la cara.", exFr:"Cette voiture coûte les yeux de la tête.", cat:"modismos", tags:["expression"] },
+  { id:"b2_095", es:"llover sobre mojado", fr:"c'est le comble / en rajouter", exEs:"Perdió el trabajo y luego el coche: llovía sobre mojado.", exFr:"Il a perdu son travail puis sa voiture : c'était le comble.", cat:"modismos", tags:["expression"] },
+  { id:"b2_096", es:"ser pan comido", fr:"être du gâteau / très facile", exEs:"Este examen es pan comido.", exFr:"Cet examen est du gâteau.", cat:"modismos", tags:["expression"] },
+  { id:"b2_097", es:"dar la lata", fr:"casser les pieds / embêter", exEs:"Deja de dar la lata.", exFr:"Arrête de casser les pieds.", cat:"modismos", tags:["expression"] },
+  { id:"b2_098", es:"quedarse en blanco", fr:"avoir un blanc / un trou de mémoire", exEs:"Me quedé en blanco durante el examen.", exFr:"J'ai eu un trou de mémoire pendant l'examen.", cat:"modismos", tags:["expression"] },
+  { id:"b2_099", es:"matar dos pájaros de un tiro", fr:"faire d'une pierre deux coups", exEs:"Con este plan matamos dos pájaros de un tiro.", exFr:"Avec ce plan on fait d'une pierre deux coups.", cat:"modismos", tags:["expression"] },
+
+  // --- Más conectores ---
+  { id:"b2_100", es:"en lugar de", fr:"au lieu de / à la place de", exEs:"En lugar de quejarte, actúa.", exFr:"Au lieu de te plaindre, agis.", cat:"conectores", tags:["connecteur"] },
+  { id:"b2_101", es:"con respecto a", fr:"en ce qui concerne / par rapport à", exEs:"Con respecto a tu propuesta, estoy de acuerdo.", exFr:"En ce qui concerne ta proposition, je suis d'accord.", cat:"conectores", tags:["connecteur"] },
+  { id:"b2_102", es:"dicho de otro modo", fr:"autrement dit", exEs:"Dicho de otro modo, no hay solución.", exFr:"Autrement dit, il n'y a pas de solution.", cat:"conectores", tags:["connecteur"] },
+  { id:"b2_103", es:"a raíz de", fr:"à la suite de / en raison de", exEs:"A raíz de la pandemia, todo cambió.", exFr:"À la suite de la pandémie, tout a changé.", cat:"conectores", tags:["connecteur"] },
+  { id:"b2_104", es:"de cara a", fr:"en vue de", exEs:"De cara al futuro, debemos planificar.", exFr:"En vue de l'avenir, nous devons planifier.", cat:"conectores", tags:["connecteur"] },
+  { id:"b2_105", es:"pese a", fr:"en dépit de / malgré", exEs:"Pese a las dificultades, lo consiguieron.", exFr:"En dépit des difficultés, ils y sont parvenus.", cat:"conectores", tags:["connecteur"] },
+  { id:"b2_106", es:"en la medida en que", fr:"dans la mesure où", exEs:"Te ayudaré en la medida en que pueda.", exFr:"Je t'aiderai dans la mesure où je pourrai.", cat:"conectores", tags:["connecteur"] },
+
+  // --- Más verbos B2 ---
+  { id:"b2_107", es:"asumir", fr:"assumer", exEs:"Hay que asumir las consecuencias.", exFr:"Il faut assumer les conséquences.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_108", es:"carecer", fr:"manquer de", exEs:"El informe carece de datos fiables.", exFr:"Le rapport manque de données fiables.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_109", es:"emprender", fr:"entreprendre", exEs:"Decidió emprender un negocio propio.", exFr:"Il a décidé d'entreprendre sa propre affaire.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_110", es:"generar", fr:"générer", exEs:"La empresa genera muchos empleos.", exFr:"L'entreprise génère beaucoup d'emplois.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_111", es:"garantizar", fr:"garantir", exEs:"No puedo garantizar el resultado.", exFr:"Je ne peux pas garantir le résultat.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_112", es:"implementar", fr:"mettre en œuvre / implémenter", exEs:"Vamos a implementar un nuevo sistema.", exFr:"Nous allons mettre en œuvre un nouveau système.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_113", es:"vincular", fr:"lier / rattacher", exEs:"Los expertos vinculan el problema al cambio climático.", exFr:"Les experts lient le problème au changement climatique.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_114", es:"subestimar", fr:"sous-estimer", exEs:"No debes subestimar al adversario.", exFr:"Tu ne dois pas sous-estimer l'adversaire.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_115", es:"aportar", fr:"apporter / contribuer", exEs:"Cada uno aporta su experiencia.", exFr:"Chacun apporte son expérience.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_116", es:"alertar", fr:"alerter", exEs:"Los científicos alertan sobre el calentamiento global.", exFr:"Les scientifiques alertent sur le réchauffement climatique.", cat:"verbos", tags:["verbe"] },
+  { id:"b2_117", es:"trasladar", fr:"transférer / déplacer", exEs:"Trasladaron la empresa a otra ciudad.", exFr:"Ils ont transféré l'entreprise dans une autre ville.", cat:"verbos", tags:["verbe"] },
+
+  // --- Más profesional ---
+  { id:"b2_118", es:"la jornada", fr:"la journée de travail", exEs:"Tengo jornada completa.", exFr:"J'ai une journée de travail complète.", cat:"profesional", tags:["travail"] },
+  { id:"b2_119", es:"el convenio", fr:"la convention / l'accord", exEs:"Firmaron un convenio colectivo.", exFr:"Ils ont signé une convention collective.", cat:"profesional", tags:["travail"] },
+  { id:"b2_120", es:"el sindicato", fr:"le syndicat", exEs:"El sindicato convocó una huelga.", exFr:"Le syndicat a appelé à la grève.", cat:"profesional", tags:["travail"] },
+  { id:"b2_121", es:"la huelga", fr:"la grève", exEs:"Los trabajadores están en huelga.", exFr:"Les travailleurs sont en grève.", cat:"profesional", tags:["travail"] },
+  { id:"b2_122", es:"el rendimiento", fr:"le rendement / la performance", exEs:"Su rendimiento ha mejorado mucho.", exFr:"Sa performance s'est beaucoup améliorée.", cat:"profesional", tags:["travail"] },
+  { id:"b2_123", es:"la sede", fr:"le siège (d'entreprise)", exEs:"La sede central está en Madrid.", exFr:"Le siège social est à Madrid.", cat:"profesional", tags:["travail"] },
+  { id:"b2_124", es:"la plantilla", fr:"l'effectif / le personnel", exEs:"La plantilla de la empresa se ha reducido.", exFr:"L'effectif de l'entreprise a été réduit.", cat:"profesional", tags:["travail"] },
+  { id:"b2_125", es:"liderar", fr:"diriger / mener", exEs:"Lidera un equipo de investigación.", exFr:"Il/Elle dirige une équipe de recherche.", cat:"profesional", tags:["travail","verbe"] },
+
+  // --- Más abstractos B2 ---
+  { id:"b2_126", es:"la índole", fr:"la nature (type)", exEs:"Es un problema de índole económica.", exFr:"C'est un problème de nature économique.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_127", es:"la idiosincrasia", fr:"l'idiosyncrasie / la particularité", exEs:"Cada pueblo tiene su propia idiosincrasia.", exFr:"Chaque peuple a sa propre particularité.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_128", es:"el paradigma", fr:"le paradigme", exEs:"Estamos ante un cambio de paradigma.", exFr:"Nous sommes face à un changement de paradigme.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_129", es:"la tendencia", fr:"la tendance", exEs:"La tendencia es al alza.", exFr:"La tendance est à la hausse.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_130", es:"la perspectiva", fr:"la perspective", exEs:"Debemos analizar desde otra perspectiva.", exFr:"Nous devons analyser depuis une autre perspective.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_131", es:"el criterio", fr:"le critère", exEs:"¿Cuáles son los criterios de selección?", exFr:"Quels sont les critères de sélection ?", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_132", es:"la incertidumbre", fr:"l'incertitude", exEs:"La incertidumbre económica preocupa.", exFr:"L'incertitude économique inquiète.", cat:"abstractos", tags:["abstrait"] },
+  { id:"b2_133", es:"la paradoja", fr:"le paradoxe", exEs:"Es la paradoja de nuestro tiempo.", exFr:"C'est le paradoxe de notre époque.", cat:"abstractos", tags:["abstrait"] },
 ];
 
 // ============================================================
@@ -464,6 +856,8 @@ const CATEGORIES = {
     casa: "Maison",
     cuerpo: "Corps",
     colores: "Couleurs",
+    animales: "Animaux",
+    numeros: "Nombres",
     verbos: "Verbes de base",
     adjetivos: "Adjectifs",
     tiempo: "Temps",
@@ -481,6 +875,8 @@ const CATEGORIES = {
     transporte: "Transport",
     clima: "Météo",
     ocio: "Loisirs & Sports",
+    tecnologia: "Technologie",
+    emociones: "Émotions",
     verbos: "Verbes",
     adjetivos: "Adjectifs"
   },
@@ -497,6 +893,7 @@ const CATEGORIES = {
   B2: {
     politica: "Politique & Société",
     economia: "Économie",
+    ciencia: "Science & Technologie",
     modismos: "Expressions idiomatiques",
     conectores: "Connecteurs avancés",
     verbos: "Verbes avancés",
