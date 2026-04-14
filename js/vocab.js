@@ -72,6 +72,7 @@ const A1 = [
   { id:"a1_056", es:"el pie", fr:"le pied", exEs:"Tengo los pies fríos.", exFr:"J'ai les pieds froids.", cat:"cuerpo", tags:["corps"] },
   { id:"a1_057", es:"el pelo", fr:"les cheveux", exEs:"Tiene el pelo largo y rubio.", exFr:"Elle a les cheveux longs et blonds.", cat:"cuerpo", tags:["corps"] },
   { id:"a1_058", es:"la oreja", fr:"l'oreille", exEs:"Lleva un pendiente en cada oreja.", exFr:"Il/Elle porte une boucle à chaque oreille.", cat:"cuerpo", tags:["corps"] },
+  { id:"a1_305", es:"el cuerpo", fr:"le corps", exEs:"El cuerpo humano es complejo.", exFr:"Le corps humain est complexe.", cat:"cuerpo", tags:["corps"] },
 
   // --- Colores ---
   { id:"a1_059", es:"rojo", fr:"rouge", exEs:"Me gusta el coche rojo.", exFr:"J'aime la voiture rouge.", cat:"colores", tags:["couleur","adjectif"] },
@@ -129,6 +130,8 @@ const A1 = [
   { id:"a1_103", es:"el parque", fr:"le parc", exEs:"Paseo por el parque cada tarde.", exFr:"Je me promène dans le parc chaque après-midi.", cat:"lugares", tags:["lieu"] },
   { id:"a1_104", es:"el hospital", fr:"l'hôpital", exEs:"El hospital está lejos de aquí.", exFr:"L'hôpital est loin d'ici.", cat:"lugares", tags:["lieu"] },
   { id:"a1_105", es:"la calle", fr:"la rue", exEs:"Vivo en la calle Mayor.", exFr:"J'habite dans la rue Mayor.", cat:"lugares", tags:["lieu"] },
+  { id:"a1_220", es:"cerca", fr:"près", exEs:"Está cerca.", exFr:"C'est près.", cat:"lugares", tags:["position"] },
+  { id:"a1_221", es:"lejos", fr:"loin", exEs:"Vive lejos.", exFr:"Il/elle habite loin.", cat:"lugares", tags:["position"] },
 
   // --- Mots essentiels ---
   { id:"a1_106", es:"sí", fr:"oui", exEs:"Sí, me gusta mucho.", exFr:"Oui, j'aime beaucoup.", cat:"esenciales", tags:["basique"] },
@@ -216,6 +219,8 @@ const A1 = [
   { id:"a1_176", es:"la lámpara", fr:"la lampe", exEs:"Enciende la lámpara, está oscuro.", exFr:"Allume la lampe, il fait sombre.", cat:"casa", tags:["meuble"] },
   { id:"a1_177", es:"el sofá", fr:"le canapé", exEs:"Me siento en el sofá a leer.", exFr:"Je m'assois sur le canapé pour lire.", cat:"casa", tags:["meuble"] },
   { id:"a1_178", es:"la nevera", fr:"le réfrigérateur", exEs:"Pon la leche en la nevera.", exFr:"Mets le lait dans le réfrigérateur.", cat:"casa", tags:["meuble"] },
+  { id:"a1_230", es:"la nevera", fr:"le frigo", exEs:"La leche está en la nevera.", exFr:"Le lait est dans le frigo.", cat:"casa", tags:["objet"] },
+  { id:"a1_231", es:"la mesa", fr:"la table", exEs:"El libro está en la mesa.", exFr:"Le livre est sur la table.", cat:"casa", tags:["objet"] },
 
   // --- Más verbos ---
   { id:"a1_179", es:"abrir", fr:"ouvrir", exEs:"Abre el libro por la página diez.", exFr:"Ouvre le livre à la page dix.", cat:"verbos", tags:["verbe"] },
@@ -236,6 +241,32 @@ const A1 = [
   { id:"a1_194", es:"vestirse", fr:"s'habiller", exEs:"Me visto rápido por la mañana.", exFr:"Je m'habille vite le matin.", cat:"verbos", tags:["verbe"] },
   { id:"a1_195", es:"jugar", fr:"jouer", exEs:"Los niños juegan en el parque.", exFr:"Les enfants jouent dans le parc.", cat:"verbos", tags:["verbe"] },
   { id:"a1_196", es:"cortar", fr:"couper", exEs:"Corta el pan, por favor.", exFr:"Coupe le pain, s'il te plaît.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_240", es:"escuchar", fr:"écouter", exEs:"Escucho música.", exFr:"J'écoute de la musique.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_241", es:"caminar", fr:"marcher", exEs:"Camino todos los días.", exFr:"Je marche tous les jours.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_242", es:"llamar", fr:"appeler", exEs:"Te llamo luego.", exFr:"Je t'appelle plus tard.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_243", es:"usar", fr:"utiliser", exEs:"Uso esta aplicación.", exFr:"J'utilise cette application.", cat:"verbos", tags:["verbe"] },
+  
+  { id:"a1_244", es:"desayunar", fr:"prendre le petit-déjeuner", exEs:"Desayuno a las ocho.", exFr:"Je prends le petit-déjeuner à huit heures.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_245", es:"almorzar", fr:"déjeuner", exEs:"Almuerzo a mediodía.", exFr:"Je déjeune à midi.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_246", es:"descansar", fr:"se reposer", exEs:"Descanso el fin de semana.", exFr:"Je me repose le week-end.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_247", es:"cenar", fr:"dîner", exEs:"Cenamos juntos.", exFr:"Nous dînons ensemble.", cat:"verbos", tags:["verbe"] },
+  
+  { id:"a1_248", es:"aprender", fr:"apprendre", exEs:"Aprendo español.", exFr:"J'apprends l'espagnol.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_249", es:"comprender", fr:"comprendre", exEs:"Comprendo la lección.", exFr:"Je comprends la leçon.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_250", es:"vender", fr:"vendre", exEs:"Vendo ropa.", exFr:"Je vends des vêtements.", cat:"verbos", tags:["verbe"] },
+  
+  { id:"a1_251", es:"abrir", fr:"ouvrir", exEs:"Abro la puerta.", exFr:"J'ouvre la porte.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_252", es:"subir", fr:"monter", exEs:"Subo las escaleras.", exFr:"Je monte les escaliers.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_253", es:"decidir", fr:"décider", exEs:"Decido quedarme.", exFr:"Je décide de rester.", cat:"verbos", tags:["verbe"] },
+  { id:"a1_254", es:"recibir", fr:"recevoir", exEs:"Recibo un mensaje.", exFr:"Je reçois un message.", cat:"verbos", tags:["verbe"] },
+  
+  { id:"a1_255", es:"tener ganas de", fr:"avoir envie de", exEs:"Tengo ganas de viajar.", exFr:"J'ai envie de voyager.", cat:"verbos", tags:["verbe"] },
+  
+  { id:"a1_256", es:"despertarse", fr:"se réveiller", exEs:"Me despierto temprano.", exFr:"Je me réveille tôt.", cat:"verbos", tags:["verbe","réflexif"] },
+  { id:"a1_257", es:"levantarse", fr:"se lever", exEs:"Me levanto a las siete.", exFr:"Je me lève à sept heures.", cat:"verbos", tags:["verbe","réflexif"] },
+  { id:"a1_258", es:"ducharse", fr:"se doucher", exEs:"Me ducho por la mañana.", exFr:"Je me douche le matin.", cat:"verbos", tags:["verbe","réflexif"] },
+  { id:"a1_259", es:"dormirse", fr:"s'endormir", exEs:"Me duermo rápido.", exFr:"Je m'endors vite.", cat:"verbos", tags:["verbe","réflexif"] },
+  { id:"a1_260", es:"acostarse", fr:"se coucher", exEs:"Me acuesto tarde.", exFr:"Je me couche tard.", cat:"verbos", tags:["verbe","réflexif"] },
 
   // --- Más adjetivos ---
   { id:"a1_197", es:"alto", fr:"grand (taille) / haut", exEs:"Mi hermano es muy alto.", exFr:"Mon frère est très grand.", cat:"adjetivos", tags:["adjectif"] },
@@ -272,6 +303,11 @@ const A1 = [
   { id:"a1_224", es:"tarde", fr:"tard / l'après-midi", exEs:"Llegas tarde.", exFr:"Tu arrives en retard.", cat:"tiempo", tags:["temps"] },
   { id:"a1_225", es:"pronto", fr:"bientôt", exEs:"Nos vemos pronto.", exFr:"On se voit bientôt.", cat:"tiempo", tags:["temps"] },
   { id:"a1_226", es:"despacio", fr:"lentement / doucement", exEs:"Habla más despacio, por favor.", exFr:"Parle plus lentement, s'il te plaît.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_300", es:"hay", fr:"il y a", exEs:"Hay un problema.", exFr:"Il y a un problème.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_301", es:"no hay", fr:"il n'y a pas", exEs:"No hay leche.", exFr:"Il n'y a pas de lait.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_302", es:"por la mañana", fr:"le matin", exEs:"Trabajo por la mañana.", exFr:"Je travaille le matin.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_303", es:"por la tarde", fr:"l'après-midi", exEs:"Estudio por la tarde.", exFr:"J'étudie l'après-midi.", cat:"tiempo", tags:["temps"] },
+  { id:"a1_304", es:"por la noche", fr:"le soir", exEs:"Leo por la noche.", exFr:"Je lis le soir.", cat:"tiempo", tags:["temps"] },
 
   // --- Más esenciales ---
   { id:"a1_227", es:"todo", fr:"tout", exEs:"Todo está bien.", exFr:"Tout va bien.", cat:"esenciales", tags:["basique"] },
@@ -369,6 +405,9 @@ const A2 = [
   { id:"a2_052", es:"la nieve", fr:"la neige", exEs:"La nieve cubre las montañas.", exFr:"La neige couvre les montagnes.", cat:"clima", tags:["météo"] },
   { id:"a2_053", es:"la tormenta", fr:"l'orage / la tempête", exEs:"Anoche hubo una tormenta fuerte.", exFr:"La nuit dernière il y a eu un fort orage.", cat:"clima", tags:["météo"] },
   { id:"a2_054", es:"caluroso", fr:"chaud (temps)", exEs:"El verano aquí es muy caluroso.", exFr:"L'été ici est très chaud.", cat:"clima", tags:["météo","adjectif"] },
+  { id:"a2_200", es:"el tiempo", fr:"la météo / le temps", exEs:"El tiempo está cambiando.", exFr:"Le temps change.", cat:"clima", tags:["météo"] },
+  { id:"a2_201", es:"el sol", fr:"le soleil", exEs:"El sol brilla hoy.", exFr:"Le soleil brille aujourd'hui.", cat:"clima", tags:["météo"] },
+  { id:"a2_202", es:"el cielo", fr:"le ciel", exEs:"El cielo está azul.", exFr:"Le ciel est bleu.", cat:"clima", tags:["météo"] },
 
   // --- Ocio y deportes ---
   { id:"a2_055", es:"el fútbol", fr:"le football", exEs:"Juego al fútbol los domingos.", exFr:"Je joue au football le dimanche.", cat:"ocio", tags:["sport","loisir"] },
@@ -411,6 +450,10 @@ const A2 = [
   { id:"a2_088", es:"lento", fr:"lent", exEs:"Internet está muy lento hoy.", exFr:"Internet est très lent aujourd'hui.", cat:"adjetivos", tags:["adjectif"] },
   { id:"a2_089", es:"libre", fr:"libre", exEs:"¿Estás libre este sábado?", exFr:"Tu es libre ce samedi ?", cat:"adjetivos", tags:["adjectif"] },
   { id:"a2_090", es:"ocupado", fr:"occupé", exEs:"Estoy ocupado, te llamo luego.", exFr:"Je suis occupé, je te rappelle plus tard.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_210", es:"peligroso", fr:"dangereux", exEs:"Es un lugar peligroso.", exFr:"C'est un endroit dangereux.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_211", es:"caliente", fr:"chaud", exEs:"El café está caliente.", exFr:"Le café est chaud.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_212", es:"precioso", fr:"magnifique", exEs:"Es un lugar precioso.", exFr:"C'est un endroit magnifique.", cat:"adjetivos", tags:["adjectif"] },
+  { id:"a2_213", es:"alto", fr:"haut / grand", exEs:"El edificio es alto.", exFr:"Le bâtiment est haut.", cat:"adjetivos", tags:["adjectif"] },
 
   // --- Tecnología ---
   { id:"a2_091", es:"el teléfono", fr:"le téléphone", exEs:"He olvidado el teléfono en casa.", exFr:"J'ai oublié le téléphone à la maison.", cat:"tecnologia", tags:["technologie"] },
