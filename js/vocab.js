@@ -296,6 +296,19 @@ const A1 = [
   { id:"a1_244", es:"el mercado", fr:"le marché", exEs:"Compro fruta en el mercado.", exFr:"J'achète des fruits au marché.", cat:"lugares", tags:["lieu"] },
   { id:"a1_245", es:"la iglesia", fr:"l'église", exEs:"La iglesia está en la plaza.", exFr:"L'église est sur la place.", cat:"lugares", tags:["lieu"] },
   { id:"a1_246", es:"el río", fr:"la rivière", exEs:"Hay un río cerca de mi pueblo.", exFr:"Il y a une rivière près de mon village.", cat:"lugares", tags:["lieu"] },
+
+  // --- Expresiones con TENER ---
+  { id:"a1_247", es:"tener hambre", fr:"avoir faim", exEs:"Tengo mucha hambre, ¿comemos ya?", exFr:"J'ai très faim, on mange ?", cat:"esenciales", tags:["tener","basique"] },
+  { id:"a1_248", es:"tener sed", fr:"avoir soif", exEs:"Después del deporte siempre tengo sed.", exFr:"Après le sport j'ai toujours soif.", cat:"esenciales", tags:["tener","basique"] },
+  { id:"a1_249", es:"tener sueño", fr:"avoir sommeil", exEs:"Tengo mucho sueño, me voy a la cama.", exFr:"J'ai très sommeil, je vais me coucher.", cat:"esenciales", tags:["tener","basique"] },
+  { id:"a1_250", es:"tener calor", fr:"avoir chaud", exEs:"¿Tienes calor? Abre la ventana.", exFr:"Tu as chaud ? Ouvre la fenêtre.", cat:"esenciales", tags:["tener","basique"] },
+  { id:"a1_251", es:"tener razón", fr:"avoir raison", exEs:"Tienes razón, me he equivocado.", exFr:"Tu as raison, je me suis trompé.", cat:"esenciales", tags:["tener","basique"] },
+  { id:"a1_252", es:"tener ganas de", fr:"avoir envie de", exEs:"Tengo ganas de salir a pasear.", exFr:"J'ai envie d'aller me promener.", cat:"esenciales", tags:["tener","basique"] },
+
+  // --- Direcciones ---
+  { id:"a1_253", es:"la derecha", fr:"la droite", exEs:"Gira a la derecha en el cruce.", exFr:"Tourne à droite au carrefour.", cat:"esenciales", tags:["direction"] },
+  { id:"a1_254", es:"la izquierda", fr:"la gauche", exEs:"El banco está a la izquierda.", exFr:"La banque est à gauche.", cat:"esenciales", tags:["direction"] },
+  { id:"a1_255", es:"recto", fr:"tout droit", exEs:"Sigue recto hasta el semáforo.", exFr:"Continue tout droit jusqu'au feu.", cat:"esenciales", tags:["direction"] },
 ];
 
 // ============================================================
@@ -503,6 +516,66 @@ const A2 = [
   { id:"a2_162", es:"agradable", fr:"agréable", exEs:"Es un lugar muy agradable.", exFr:"C'est un endroit très agréable.", cat:"adjetivos", tags:["adjectif"] },
   { id:"a2_163", es:"horrible", fr:"horrible", exEs:"El tráfico es horrible.", exFr:"Le trafic est horrible.", cat:"adjetivos", tags:["adjectif"] },
   { id:"a2_164", es:"perfecto", fr:"parfait", exEs:"El tiempo es perfecto para la playa.", exFr:"Le temps est parfait pour la plage.", cat:"adjetivos", tags:["adjectif"] },
+
+  // --- Más compras (vêtements & boutique) ---
+  { id:"a2_165", es:"la talla", fr:"la taille (vêtement)", exEs:"¿Qué talla usas, la M o la L?", exFr:"Tu fais quelle taille, M ou L ?", cat:"compras", tags:["achat","vêtement"] },
+  { id:"a2_166", es:"el probador", fr:"la cabine d'essayage", exEs:"¿Dónde está el probador?", exFr:"Où est la cabine d'essayage ?", cat:"compras", tags:["achat","vêtement"] },
+  { id:"a2_167", es:"la bolsa", fr:"le sac (shopping)", exEs:"¿Me pone una bolsa, por favor?", exFr:"Vous pouvez me mettre un sac, s'il vous plaît ?", cat:"compras", tags:["achat"] },
+  { id:"a2_168", es:"el ticket", fr:"le ticket / le reçu", exEs:"Guarda el ticket por si lo quieres devolver.", exFr:"Garde le ticket au cas où tu voudrais le rendre.", cat:"compras", tags:["achat"] },
+  { id:"a2_169", es:"el datáfono", fr:"le terminal de paiement", exEs:"El datáfono no funciona, ¿paga en efectivo?", exFr:"Le terminal ne marche pas, vous pouvez payer en espèces ?", cat:"compras", tags:["achat"] },
+  { id:"a2_170", es:"la dependienta", fr:"la vendeuse", exEs:"La dependienta me ayudó a elegir.", exFr:"La vendeuse m'a aidé à choisir.", cat:"compras", tags:["achat"] },
+  { id:"a2_171", es:"los vaqueros", fr:"le jean", exEs:"Busco unos vaqueros azules.", exFr:"Je cherche un jean bleu.", cat:"compras", tags:["achat","vêtement"] },
+  { id:"a2_172", es:"las deportivas", fr:"les baskets", exEs:"Lleva unas deportivas blancas.", exFr:"Il porte des baskets blanches.", cat:"compras", tags:["achat","vêtement"] },
+  { id:"a2_173", es:"la sección", fr:"le rayon", exEs:"La sección de caballeros está en la primera planta.", exFr:"Le rayon hommes est au premier étage.", cat:"compras", tags:["achat"] },
+  { id:"a2_174", es:"al fondo", fr:"au fond", exEs:"Los probadores están al fondo a la derecha.", exFr:"Les cabines sont au fond à droite.", cat:"compras", tags:["achat","lieu"] },
+  { id:"a2_175", es:"el estilo", fr:"le style", exEs:"Me gusta tu estilo.", exFr:"J'aime ton style.", cat:"compras", tags:["achat"] },
+  { id:"a2_176", es:"medir", fr:"mesurer", exEs:"Mide dos metros de alto.", exFr:"Il mesure deux mètres de haut.", cat:"compras", tags:["achat","verbe"] },
+  { id:"a2_177", es:"vestir", fr:"habiller / s'habiller", exEs:"Sabe muy bien cómo vestirse.", exFr:"Il/Elle sait très bien s'habiller.", cat:"compras", tags:["vêtement","verbe"] },
+  { id:"a2_178", es:"azul marino", fr:"bleu marine", exEs:"Lleva un traje azul marino.", exFr:"Il porte un costume bleu marine.", cat:"compras", tags:["couleur","vêtement"] },
+  { id:"a2_179", es:"quedar bien", fr:"aller bien / être seyant", exEs:"Esa camiseta te queda muy bien.", exFr:"Ce t-shirt te va très bien.", cat:"compras", tags:["achat","vêtement"] },
+  { id:"a2_180", es:"disponible", fr:"disponible", exEs:"¿Está disponible en talla S?", exFr:"C'est disponible en taille S ?", cat:"compras", tags:["achat","adjectif"] },
+
+  // --- Expresiones de compras ---
+  { id:"a2_181", es:"¿cuánto cuesta?", fr:"combien ça coûte ?", exEs:"Perdona, ¿cuánto cuesta esta chaqueta?", exFr:"Excusez-moi, combien coûte cette veste ?", cat:"compras_exp", tags:["achat","expression"] },
+  { id:"a2_182", es:"¿puedo probármelo?", fr:"est-ce que je peux l'essayer ?", exEs:"¿Puedo probármelo? Me parece que es mi talla.", exFr:"Est-ce que je peux l'essayer ? Je crois que c'est ma taille.", cat:"compras_exp", tags:["achat","expression"] },
+  { id:"a2_183", es:"me lo llevo", fr:"je le prends", exEs:"Me lo llevo, ¿me puede envolver?", exFr:"Je le prends, vous pouvez l'emballer ?", cat:"compras_exp", tags:["achat","expression"] },
+  { id:"a2_184", es:"¿en qué talla?", fr:"en quelle taille ?", exEs:"¿Lo tiene en otra talla?", exFr:"Vous l'avez dans une autre taille ?", cat:"compras_exp", tags:["achat","expression"] },
+  { id:"a2_185", es:"es demasiado caro", fr:"c'est trop cher", exEs:"Me gusta pero es demasiado caro.", exFr:"Ça me plaît mais c'est trop cher.", cat:"compras_exp", tags:["achat","expression"] },
+  { id:"a2_186", es:"¿tiene algo más barato?", fr:"vous avez quelque chose de moins cher ?", exEs:"¿Tiene algo más barato en el mismo estilo?", exFr:"Vous avez quelque chose de moins cher dans le même style ?", cat:"compras_exp", tags:["achat","expression"] },
+
+  // --- Au restaurant ---
+  { id:"a2_187", es:"quisiera", fr:"je voudrais (conditionnel)", exEs:"Quisiera una mesa para dos, por favor.", exFr:"Je voudrais une table pour deux, s'il vous plaît.", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_188", es:"¿qué recomienda?", fr:"qu'est-ce que vous recommandez ?", exEs:"¿Qué recomienda de la carta?", exFr:"Qu'est-ce que vous recommandez dans le menu ?", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_189", es:"está delicioso", fr:"c'est délicieux", exEs:"¡Está delicioso! ¿Qué lleva?", exFr:"C'est délicieux ! Qu'est-ce qu'il y a dedans ?", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_190", es:"la cuenta, por favor", fr:"l'addition, s'il vous plaît", exEs:"Cuando pueda, la cuenta por favor.", exFr:"Quand vous pouvez, l'addition s'il vous plaît.", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_191", es:"¿está incluido el servicio?", fr:"le service est-il inclus ?", exEs:"¿Está incluido el servicio en la cuenta?", exFr:"Le service est-il inclus dans l'addition ?", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_192", es:"tómese su tiempo", fr:"prenez votre temps", exEs:"Tómese su tiempo, no hay prisa.", exFr:"Prenez votre temps, il n'y a pas d'urgence.", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_193", es:"¿me puede traer?", fr:"est-ce que vous pouvez m'apporter ?", exEs:"¿Me puede traer un poco más de pan?", exFr:"Est-ce que vous pouvez m'apporter un peu plus de pain ?", cat:"restaurante", tags:["restaurant","expression"] },
+  { id:"a2_194", es:"la terraza", fr:"la terrasse", exEs:"Prefiero sentarme en la terraza.", exFr:"Je préfère m'asseoir en terrasse.", cat:"restaurante", tags:["restaurant","lieu"] },
+
+  // --- Ville & quotidien ---
+  { id:"a2_195", es:"el tráfico", fr:"la circulation / le trafic", exEs:"El tráfico está fatal esta mañana.", exFr:"La circulation est terrible ce matin.", cat:"ciudad", tags:["ville"] },
+  { id:"a2_196", es:"la policía", fr:"la police", exEs:"Hay que llamar a la policía.", exFr:"Il faut appeler la police.", cat:"ciudad", tags:["ville"] },
+  { id:"a2_197", es:"el permiso", fr:"la permission / le permis", exEs:"¿Me da permiso para salir antes?", exFr:"Vous me donnez la permission de partir plus tôt ?", cat:"ciudad", tags:["ville"] },
+
+  // --- Verbes utiles ---
+  { id:"a2_198", es:"gritar", fr:"crier", exEs:"No grites, te escucho perfectamente.", exFr:"Ne crie pas, je t'entends très bien.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_199", es:"sudar", fr:"transpirer / suer", exEs:"Sudo mucho cuando hago deporte.", exFr:"Je transpire beaucoup quand je fais du sport.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_200", es:"añadir", fr:"ajouter", exEs:"Añade un poco de sal.", exFr:"Ajoute un peu de sel.", cat:"verbos", tags:["verbe"] },
+  { id:"a2_201", es:"requerir", fr:"nécessiter / requérir", exEs:"Este trabajo requiere mucha concentración.", exFr:"Ce travail nécessite beaucoup de concentration.", cat:"verbos", tags:["verbe"] },
+
+  // --- Mots essentiels ---
+  { id:"a2_202", es:"ahora mismo", fr:"tout de suite / à l'instant", exEs:"Vengo ahora mismo.", exFr:"J'arrive tout de suite.", cat:"esenciales", tags:["basique"] },
+  { id:"a2_203", es:"de todas formas", fr:"de toute façon", exEs:"De todas formas, no importa.", exFr:"De toute façon, ça n'a pas d'importance.", cat:"esenciales", tags:["basique","connecteur"] },
+  { id:"a2_204", es:"todo el mundo", fr:"tout le monde", exEs:"Todo el mundo lo sabe.", exFr:"Tout le monde le sait.", cat:"esenciales", tags:["basique"] },
+  { id:"a2_205", es:"perdone", fr:"excusez-moi (formel)", exEs:"Perdone, ¿sabe dónde está la estación?", exFr:"Excusez-moi, savez-vous où est la gare ?", cat:"esenciales", tags:["politesse"] },
+  { id:"a2_206", es:"me parece bien", fr:"ça me convient / d'accord", exEs:"Me parece bien, quedamos a las ocho.", exFr:"Ça me convient, on se retrouve à huit heures.", cat:"esenciales", tags:["expression","basique"] },
+
+  // --- Conjugaisons irrégulières ---
+  { id:"a2_207", es:"yo sé (saber)", fr:"je sais", exEs:"Yo sé la respuesta.", exFr:"Je sais la réponse.", cat:"verbos_irr", tags:["verbe","irrégulier"] },
+  { id:"a2_208", es:"yo prefiero (preferir)", fr:"je préfère", exEs:"Yo prefiero el mar a la montaña.", exFr:"Je préfère la mer à la montagne.", cat:"verbos_irr", tags:["verbe","irrégulier"] },
+  { id:"a2_209", es:"yo conozco (conocer)", fr:"je connais", exEs:"Yo conozco a esa chica.", exFr:"Je connais cette fille.", cat:"verbos_irr", tags:["verbe","irrégulier"] },
+  { id:"a2_210", es:"yo elijo (elegir)", fr:"je choisis", exEs:"Yo elijo siempre el menú del día.", exFr:"Je choisis toujours le menu du jour.", cat:"verbos_irr", tags:["verbe","irrégulier"] },
 ];
 
 // ============================================================
@@ -862,7 +935,7 @@ const CATEGORIES = {
     adjetivos: "Adjectifs",
     tiempo: "Temps",
     lugares: "Lieux",
-    esenciales: "Mots essentiels",
+    esenciales: "Mots essentiels & Directions",
     ropa: "Vêtements",
     preguntas: "Questions"
   },
@@ -877,6 +950,9 @@ const CATEGORIES = {
     ocio: "Loisirs & Sports",
     tecnologia: "Technologie",
     emociones: "Émotions",
+    compras_exp: "Expressions du shopping",
+    restaurante: "Au restaurant",
+    verbos_irr: "Conjugaisons irrégulières",
     verbos: "Verbes",
     adjetivos: "Adjectifs"
   },
